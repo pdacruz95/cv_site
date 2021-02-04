@@ -43,7 +43,7 @@
     margin-bottom: 40px;
 }
 
-/*--------------------------------------------Special paddings/margins/text*/
+/* ----------------------------------------Special paddings/margins/text */
 
 h1,
 h2,
@@ -62,7 +62,28 @@ h4 {
     color: #fafafa;
 }
 
-/*--------------------------------------------Headings*/
+.inline-block {
+    display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+/*--------------------------------------------Heading*/
 
 header {
     margin: 0;
@@ -155,12 +176,13 @@ header {
     height: 120px;
 }
 
-/*--------------------------------------------Footer*/
+/* ----------------------------------------Footer */
 
 footer {
     background-color: #525252;
     color: #fafafa;
     min-height: 120px;
+    margin: 0;
 }
 
 .cv-pdf i {
@@ -172,13 +194,10 @@ footer {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-
-
 }
 
 .cv-pdf i:hover {
     color: #e84610;
-
 }
 
 .social-links {
@@ -195,14 +214,27 @@ footer {
     text-align: center;
     color: #fafafa;
     background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
     background: #e84610;
-
 }
 
 #footer-details {
     padding: 20px;
 }
 
+/* ----------------------------------------Three Reasons */
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #e67e22;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+}
